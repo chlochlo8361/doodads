@@ -173,3 +173,13 @@
     text-align: end;
 }
 
+@media only screen and (max-width: 650px) {
+    .fhead, .fbody data > div {
+        flex-wrap: wrap;
+    }
+    .fbody data > div div:last-child, .fhead > div:last-child {
+        min-width: unset;
+        max-width: unset;
+    }
+}
+
